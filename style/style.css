@@ -1,0 +1,165 @@
+/**************************
+MAIN STYLE
+**************************/
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body{
+	background-color: #FFFFFF; 
+	background: url('pattern-am8p.png') repeat;
+	margin: 0;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #E3CDA4;
+}
+header{
+	height: 4.4em;
+	width: 100%;
+	background-color: #B50917;
+	margin: 0px;
+	top:0px;
+}
+
+nav{
+
+}
+
+#navLinks{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 8.57143em;
+	margin-bottom: 30px;
+	line-height: 0.8;
+	z-index: 10;
+
+}
+
+h3{
+	font-size: 7em;
+	margin: 1em;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+p{
+  letter-spacing: 2px;
+  font-size: 16px;
+   color: #533D14;
+}
+
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  text-rendering: optimizelegibility;
+}
+
+
+h1,
+h2,
+h3 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 38.5px;
+}
+
+h2 {
+  font-size: 31.5px;
+	color:#B39D74;
+}
+
+h3 {
+  font-size: 5em;
+ text-align: center;
+	color:#B39D74;
+}
+
+h4 {
+  font-size: 17.5px;
+  color: #3B5998;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 11.9px;
+}
+
+/**************************
+CLEAN ME
+**************************/
+
+	.content{
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		position: relative;
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+
+	.uphill8 {
+		transform: rotate(-8deg);
+		-ms-transform: rotate(-8deg);
+		-webkit-transform: rotate(-8deg);
+		margin-top: 5%;
+		margin-bottom: -12%;
+	}
+
+	#main{
+
+		font-size: 14em;
+		color: #7E827A;
+
+	}
+
+	#m2{
+	color:#B39D74;
+	}
+
+	#about{
+		padding: 1em;
+		font-size: 1.4em;
+	}
