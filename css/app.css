@@ -1,0 +1,379 @@
+a {
+  color: #d41d29;
+  font-weight: 600;
+}
+
+a:hover {
+  color:red;
+}
+
+a .active{
+  color: #d41d29;
+}
+
+b {
+  color: #d41d29;
+}
+
+body {
+  background-color: #292c35;
+}
+
+dd a{
+  font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
+  text-align: center;
+}
+
+footer {
+  border-bottom: 4px solid #d41d29;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+form {
+  max-width: 225px;
+  min-width: 40%; 
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h1 , h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+hgroup {
+  text-align: center; 
+}
+
+input, select, textarea{
+  text-align: center;
+  border: 0;
+  color: #d41d29;
+}
+
+#name, #school, #email, #github, #diet {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid red;
+  height: 50px;
+  font-size: 24px;
+  box-shadow: none;
+}
+
+p {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 250%;
+  margin-bottom: 2%;
+}
+
+#about {
+  background-image: url(../img/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+#about p {
+  padding-bottom: 5%;
+}
+
+#about .row {
+  padding:3%;
+}
+
+#billboard {
+  height: 100%;
+  width: 100%;
+}
+
+#billboard img {
+  /*	width: 120px;*/
+} 
+
+
+#header-text {
+  padding: 5%;
+}
+
+#directions {
+  height: 500px;
+  width: 100%;
+}
+
+#logo {
+  margin: 2% 0 2%;
+}
+
+#nav {
+  border-top: 4px solid #d41d29;
+  position: fixed;
+  z-index: 10;
+}
+
+#reg img{
+  width: 100%;
+  text-align: center;
+}
+
+#regform {
+  margin: 0 auto;
+}
+
+#sched p {
+  color: #292c35;
+  font-size: 20px;
+  text-align: left;
+}
+
+#sponsors {
+  padding-top: 3%;
+  background-color: white;
+  text-align: center;
+}
+
+#sponsors h1 {
+  color: #292c35;
+  text-align: center;
+  font-weight: 600;
+}
+
+#sponsors img {
+  padding: 5%;
+  margin-bottom: 5%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#twitter-widget-0 {
+  position: absolute;
+  margin-top: -13%;
+}
+
+.videoBG_wrapper[style] {
+  position: relative !important;
+}
+
+#wrapper {
+}
+
+@media(max-width : 640px) {
+  #about p {
+    font-size: 1.5rem;
+  }
+
+  #sched p {
+    color: #292c35;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  #billboard {
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+  #header-text {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    padding-top: 3em;
+    width: 100%;	
+  }		
+
+  #twitter-widget-0 {
+    position: static;
+    margin: 2px 30% 0 ;
+  }
+
+  dd a{
+    font-size: 80%;
+  }
+
+  .videoBG {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1)  { 
+  #billboard {
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+
+  #sched p {
+    color: #292c35;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .videoBG {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 2) { 
+  #billboard {
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+  .videoBG {
+    display: none;
+  }
+}
+
+#anchors {
+  margin-top: 1%;
+}
+
+#anchors dd a:hover {
+  color: #d41d29;
+}
+
+.anchor{
+  top: ;
+}
+
+.button1 {
+  background: transparent url(../img/button1.png) no-repeat top left;
+  height: 53px;
+  width: 130px;
+  z-index: -1;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;	
+  text-align: center;
+}
+
+.button1:hover {
+  background: transparent url(../img/button2.png) no-repeat top left;
+  height: 53px;
+  width: 130px;
+  z-index: -1;
+}
+
+.button.alert {
+  background-color: #d41d29;
+}
+
+.form-input{
+  background-color: rgba(0,0,0,0.1);
+  border-color: white; 
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 6px 6px -6px black;
+  -moz-box-shadow: 0 6px 6px -6px black;
+  box-shadow: 0 6px 6px -6px black;
+}
+
+.overlay{
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  padding: 0 5% 5%;
+}
+
+#billboard .overlay {
+  padding-top: 8%;
+}
+
+.overlay .row h1, .overlay2 .row h1 {
+  text-align: center;
+  margin-top: 5%;
+  /*font-weight: 600;*/
+}
+
+.reveal-modal h1 {
+  color: #292c35;
+}
+
+.twitter-follow-button {
+  margin: 0 auto;
+}
+
+.web {
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  text-align: center;
+}
+h3 {
+  color: #d41d29;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+}
+
+#reg input, #reg select, #reg textarea{
+  color: #000;
+}
+
+#reg textarea:focus,#reg input:focus {
+  color: gray;
+}
+
+.web a {
+  font-weight: 600;
+}
+
+.web h1 {
+  margin-top: 8%;
+}
+
+.callout h1 {
+  margin-top: 4%;
+}
+
+.callout h1 {
+  padding-bottom: 10px;
+}
+
+::-webkit-input-placeholder { font-family:'Source Sans Pro', sans-serif; }
+::-moz-placeholder {  font-family: 'Source Sans Pro', sans-serif; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: 'Source Sans Pro', sans-serif; } /* ie */
+input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif; }

@@ -1,0 +1,76 @@
+<!doctype html>
+<!--
+ __  __  ______  ______  __  __    ______  __  __
+/\ \_\ \/\  __ \/\  ___\/\ \/ /   /\  == \/\ \/\ \
+\ \  __ \ \  __ \ \ \___\ \  _"-. \ \  __<\ \ \_\ \
+ \ \_\ \_\ \_\ \_\ \_____\ \_\ \ \ \ \_\ \_\ \_____\
+  \/_/\/_/\/_/\/_/\/_____/\/_/\/_/  \/_/ /_/\/_____/
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>HackRU | Spring 2014</title>
+    <link rel="icon" type="image/png" href="img/favicon_old_logo.png">
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/video-js.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/jquery.remodal.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/box-style.css">
+    <link rel="stylesheet" type="text/css" href="style/ministrap.css">
+    <script src="js/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.17.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+  </head>
+
+  <body id="reg">
+    <div style="width:100%; text-align: center;">
+      <img id="heading" src="img/hackru_head.svg" style="margin-bottom: -30px;">
+      <div class="row">
+        <h1>
+          <a class="small-12 columns" href="index.html">
+            <img id="logo" src="img/hack_ru_logo.png" style="width: 270px">
+          </a>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <form id="regform">
+          <input id="name" class="form-input" type="text" name="username" placeholder="Enter your full name!" required>
+          <input id="school" class="form-input" type="text" name="school" placeholder="What school do you go to?" required>
+          <input id="email" class="form-input" type="email" name="email" placeholder="Enter your email!" required>
+          <input id="diet" class="form-input" type="text" name="diet" placeholder="Any dietary restrictions?">
+          <input id="github" class="form-input" type="text" name="github" placeholder="Enter your GitHub handle!">
+          <h3>Upload your resume!</h3>
+          <input id="upfile" class="form-input" type="file" name="resume" placeholder="Upload your Resume!" required>
+          <input id="submitbtn" class="button1" type="submit" value="Register" style="color: white;">
+        </form>
+      </div>
+      <style>
+        h3 {
+          color:gray;
+          position:left;
+          font-size: 2em;
+        }
+      </style>
+      <div id="remodal" class="remodal" data-remodal-id="modal">
+        <p style="font-size 30px; color: black">
+
+        </p>
+        <br>
+        <a class="remodal-confirm" href="#">OK</a>
+      </div>
+      <script src="js/jquery.remodal.js"></script>
+      <script src="js/registration.js"></script>
+  </body>
+
+</html>
+
