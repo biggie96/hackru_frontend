@@ -1,6 +1,20 @@
 /**************************
 MAIN STYLE
  **************************/
+
+#wrapper{
+  width: 100%;
+
+}
+
+.container{
+  display: block;
+  width: 960px; 
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -22,11 +36,6 @@ header{
   background-color: #B50917;
   margin: 0px;
   top:0px;
-}
-
-#navLinks{
-  margin-right: auto;
-  margin-left: auto;
 }
 
 h1, h2, h3 {
@@ -125,6 +134,10 @@ h6 {
 /**************************
 CLEAN ME
  **************************/
+#navLinks{
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .content{
   box-sizing: border-box;
@@ -155,7 +168,7 @@ CLEAN ME
 }
 
 #about{
-  padding: 1em;
+
   font-size: 1.4em;
 }
 
@@ -167,4 +180,16 @@ CLEAN ME
   margin: 0 auto;
   max-width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  .container{
+  
+  width: 100%; 
+}
+
+  #bottomh{
+  font-size: 4em; 
+}
+}
+
 

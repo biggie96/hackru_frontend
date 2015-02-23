@@ -7,25 +7,18 @@
   \/_/\/_/\/_/\/_/\/_____/\/_/\/_/  \/_/ /_/\/_____/
 -->
 <head>
-  <title>HackRU</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="stylesheet" type="text/css" href="style/box-style.css">
-  <link rel="stylesheet" type="text/css" href="style/ministrap.css">
-  <script src="js/modernizr.js"></script>
+  <title>HackRU | Spring 2015</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/favicon_old_logo.png">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <script src="js/video.js"></script>
-  <script src="js/jquery.videoBG.js"></script>
-  <script src="js/imagesloaded.min.js"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.17.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <section id="wrapper">
+    <div id="HackRU"></div>
     <!--SECTION BEGIN -->
-
-    <img id="heading" src="img/hackru_head.svg" style="margin-bottom: -10px;">
-
+    <img id="row1" src="img/hackru_head.svg">
     <section id="pitch">
       <h1 id="main">
         <img src="img/hack_ru_logo.png" style="width: 270px"/>
@@ -33,140 +26,144 @@
       <h3 id="m2">Twenty Four Hours of Non-Stop Hacking! </br>
         April 18 &amp; 19 || Rutgers Athletic Center</br>
       </h3>
-      <a href="register.html" class="demo-pricing demo-pricing-1">SIGN UP!</a>
-
+      <a href="register.html" class="registerBtn registerBtn-1">SIGN UP!</a>
+      <a href="#aboutHackRU">
+        <svg  class = "arrow" viewBox="0 0 512 512" fill="#000000"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>
+      </a>
       <h4 class="uphill8 mar-t30">Interested in sponsoring? Email us at <a href="mailto:team@hackru.org?Subject=Hello%20HackRu!">team@hackru.org</a></h4>
     </section>
-
-
     <!--SECTION BEGIN -->
-    <img id="row1" src="img/hackru_row1.svg">
-
-
-    <section>
+    <img id="row1" src="img/hackru_row.svg">
+    <section id="aboutHackRU">
       <div class="outer box-red">
         <div class="content pad-lr90 pad-t20 hgt240">
-          <div class="container">
-            <h3>HackRU is non-stop fun!</h3>
+          <div class="container"  >
+            <h3>HackRU is New Jersey's Biggest Hackathon!</h3>
             <p id="about">Close to a thousand hackers will come together to envision, create, and demo their own unique application. At the start of the hackathon, our sponsoring companies will
-            <a href="http://en.wikipedia.org/wiki/API" target="_blank">present their technologies</a>. Use these technologies in your applications to accelerate your hacking to the cutting edge. Throughout the day, you will be surrounded by mentors from our sponsors and fellow hackers who will help you hack like a rock star. At the end of 24 hours, we will all assemble with a panel of judges and award awesome prizes.  Everyone will get fed, receive sweet swag, and meet amazing people.  HackRU will be an <br><em>incredible experience.</em></p>
-          </div></div>
-      </div>
-    </section>
-    <img id="row1" src="img/hackru_row1.svg">
-    <!--Section Begin -->
-    <section class= "container">
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2>Who can attend?</h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">All undergraduate students from any university in the world are welcome. Students who do not attend Rutgers University must be 18 years or older or have special permission.</p>
+              <a href="http://en.wikipedia.org/wiki/API" target="_blank">present their technologies</a>.<p> 
+              <p  id="about"> Use these technologies in your applications to push your hacking up to the cutting edge. Throughout the day, you will be surrounded by mentors from our sponsors and fellow hackers who will help you hack like a rock star. </p>
+              <p  id="about">At the end of 24 hours, we will all assemble with a panel of judges and award awesome prizes.  Everyone will get fed, receive sweet swag, and meet amazing people.  HackRU will be an <em>incredible experience.</em></p>
+            </div></div>
           </div>
-        </article>
-        <div id="mainArticleSection">
-          <article class= "mainArticle">
-            <h2> How can I register? </h2>
-            <div class="boxItems">
-              <p class="mainArticleSummary">Click on the sign up button under our logo and fill out your profile to register.</p>
+          <a href="#HackRU">
+            <svg class="up" class = "arrow" viewBox="0 0 512 512" fill="#000000"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>
+          </a>
+          <a href="#sponsors">
+            <svg  class = "arrow" id="middlearrow" viewBox="0 0 512 512" fill="#000000"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>
+          </a>
+        </section>
+        <img id="row1" src="img/hackru_row.svg">
+        <!--Section Begin -->
+        <section class= "container">
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2>Who can attend?</h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">All undergraduate students from any university in the world are welcome. Students who do not attend Rutgers University must be 18 years or older or have special permission.</p>
+              </div>
+            </article>
+            <div id="mainArticleSection">
+              <article class= "mainArticle">
+                <h2> How can I register? </h2>
+                <div class="boxItems">
+                  <p class="mainArticleSummary">Click on the sign up button under our logo and fill out your profile to register.</p>
+                </div>
+              </article>
             </div>
-          </article>
-        </div>
-        <div id="mainArticleSection">
-          <article class= "mainArticle">
-            <h2> How much does it cost? </h2>
-            <div class="boxItems">
-              <p class="mainArticleSummary">The best things in life are free, therefore HackRU is free. Admission grants includes drinks, snacks, entrees, and the awesome swag! </p>
+            <div id="mainArticleSection">
+              <article class= "mainArticle">
+                <h2> How much does it cost? </h2>
+                <div class="boxItems">
+                  <p class="mainArticleSummary">The best things in life are free, therefore HackRU is free. Admission grants includes drinks, snacks, entrees, and the awesome swag! </p>
+                </div>
+              </article>
             </div>
-          </article>
-        </div>
-
-        <article class= "mainArticle">
-          <h2>What food will you provide?</h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">We will provide food from the beginning to the end. Everything will be provided by us for you.  We'll try our best to accommodate every dietary restriction, please let us know your needs with your profile! </p>
+            <article class= "mainArticle">
+              <h2>What food will you provide?</h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">We will provide food from the beginning to the end. Everything will be provided by us for you.  We'll try our best to accommodate every dietary restriction, please let us know your needs with your profile! </p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> Can I get reimbursed for travel? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">You can receive travel reimbursement by emailing us with a digital receipt at team@hackru.org before the registration confirmation deadline. </p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> Can I get reimbursed for travel? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">You can receive travel reimbursement by emailing us with a digital receipt at team@hackru.org before the registration confirmation deadline. </p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> How big should teams be? Can I do it alone? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">Teams should be no more greater than 4 people. You can absolutely hack alone! It's one of the best ways to get experience, many developer evangelists will be mentoring during the entire hackathon.</p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> How big should teams be? Can I do it alone? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">Teams should be no more greater than 4 people. You can absolutely hack alone! It's one of the best ways to get experience, many developer evangelists will be mentoring during the entire hackathon.</p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> What should I bring? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">All hackers must bring their valid student student ID for admission. For those interested in hacking in hardware, it will be provided for you by us. </p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> What should I bring? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">All hackers must bring their valid student student ID for admission. For those interested in hacking in hardware, it will be provided for you by us. </p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> What should I not bring? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">You should not bring anything you would not bring on an airplane. If you want to bring toothpaste and a tooth brush, that's fine! It's never a bad idea to brush your teeth before you take a find a comfortable spot to nap before demos. </p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> What should I not bring? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">You should not bring anything you would not bring on an airplane. If you want to bring toothpaste and a tooth brush, that's fine! It's never a bad idea to brush your teeth before you take a find a comfortable spot to nap before demos. </p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> What are the prizes? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">Prizes will be announced, past prizes included top of the line gear from Alienware, startup funding, and even a Super Nintendo with a ton of games!</p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> What are the prizes? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">Prizes will be announced, past prizes included top of the line gear from Alienware, startup funding, and even a Super Nintendo with a ton of games!</p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> Will you have hardware prototyping equipment? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">There is a limited amount of hardware prototyping gear at each hackathon like Arduinos or Oculus Rifts.  It is first come fist serve. Bring your own if you got em!</p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> Will you have hardware prototyping equipment? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">There is a limited amount of hardware prototyping gear at each hackathon like Arduinos or Oculus Rifts.  It is first come fist serve. Bring your own if you got em!</p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> Where is the schedule? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">Check-in for HackRU will be from 8AM-10AM on Saturday morning. The opening ceremony will begin at 10AM. HackRU will end around 2:00 pm on Sunday. </p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> Where is the schedule? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">Check-in for HackRU will be from 8AM-10AM on Saturday morning. The opening ceremony will begin at 10AM. HackRU will end around 2:00 pm on Sunday. </p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-      <div id="mainArticleSection">
-        <article class= "mainArticle">
-          <h2> Do you have another question? </h2>
-          <div class="boxItems">
-            <p class="mainArticleSummary">If you have any questions or concerns regarding HackRU contact us at team@hackru.org. We look forward to hearing from you and can't wait to see you!</p>
+          <div id="mainArticleSection">
+            <article class= "mainArticle">
+              <h2> Do you have another question? </h2>
+              <div class="boxItems">
+                <p class="mainArticleSummary">If you have any questions or concerns regarding HackRU contact us at team@hackru.org. We look forward to hearing from you and can't wait to see you!</p>
+              </div>
+            </article>
           </div>
-        </article>
-      </div>
-
+        </section>
+        <img id="row1" src="img/hackru_row.svg">
+        <section>
+          <div class="outer box-red">
+            <div class="content" id="sponsors">
+              <a href="#aboutHackRU">
+                <svg class="up" class = "arrow" viewBox="0 0 512 512" fill="#000000"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>
+              </a>
+              <h3 id="bottomh">Proudly Sponsored By</h3>
+              <img src="img/sponsors.png">
+            </div>
+          </div>
+        </section>
+        <img id="row2" src="img/hackru_foot.svg">
+      </section>
     </section>
-
-    <img id="row1" src="img/hackru_row1.svg">
-
-    <section>
-      <div class="outer box-red">
-        <div class="content" id="sponsors">
-          <h3>Proudly Sponsored By</h3>
-          <img src="img/sponsors.png">
-        </div>
-      </div>
-    </section>
-
-    <img id="row2" src="img/hackru_foot.svg">
-
-
   </section>
 </body>
