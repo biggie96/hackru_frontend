@@ -652,3 +652,8 @@ input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align
   margin-right: auto;
 }
 
+section#aboutHackRU {
+  margin-top: -10%;
+  padding-top: 10%;
+}
+
