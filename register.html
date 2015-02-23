@@ -48,21 +48,29 @@
           <input id="diet" class="form-input" type="text" name="diet" placeholder="Any dietary restrictions?">
           <input id="github" class="form-input" type="text" name="github" placeholder="Enter your GitHub handle!">
           <div id="dcon">
-          <span class="custom-dropdown custom-dropdown--white">
-            <select class="custom-dropdown__select custom-dropdown__select--white">
-              <option disabled="disabled" selected="selected">T-Shirt Size</option>
-              <option>Mens Small</option>
-              <option>Mens Medium</option>
-              <option>Mens Large</option>
-              <option>Mens Extra Large</option>
-              <option>Mens XXL</option>
-              <option>Womens Extra Small</option>
-              <option>Womans Small</option>
-              <option>Womans Medium</option>
-              <option>Womans Large</option>
-            </select>
-          </span>
-        </div>
+            <span class="custom-dropdown custom-dropdown--white register-dropdown">
+              <select class="custom-dropdown__select custom-dropdown__select--white" name="under18" form="regform" required>
+                <option disabled="disabled" selected="selected">Are you under 18?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </span>
+            <br />
+            <span class="custom-dropdown custom-dropdown--white register-dropdown">
+              <select class="custom-dropdown__select custom-dropdown__select--white" name="tshirt" form="regform" required>
+                <option disabled="disabled" selected="selected">T-Shirt Size</option>
+                <option value="ms">Men's Small</option>
+                <option value="mm">Men's Medium</option>
+                <option value="ml">Men's Large</option>
+                <option value="mxl">Men's Extra Large</option>
+                <option value="mxxl">Men's XXL</option>
+                <option value="wxs">Women's Extra Small</option>
+                <option value="ws">Women's Small</option>
+                <option value="wm">Women's Medium</option>
+                <option value="wl">Women's Large</option>
+              </select>
+            </span>
+          </div>
           <h3 id="resumeHead">Upload your resume!</h3>
           <input id="upfile" class="form-input" type="file" name="resume" placeholder="Upload your Resume!" required>
           <h3 id="resumeHead"> By clicking register you agree to the MLH <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> code of conduct.<a></h3>

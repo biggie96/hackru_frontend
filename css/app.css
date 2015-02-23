@@ -442,6 +442,7 @@ ID Style
 .form-input{
   background-color: rgba(0,0,0,0.1);
   border-color: white; 
+  text-align: center;
 }
 
 #reg input, #reg select, #reg textarea{
@@ -562,6 +563,10 @@ input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align
   margin-left: auto;
   margin-right: auto;   
 
+}
+
+.register-dropdown {
+  margin-top: 10px;
 }
 
 @supports (pointer-events: none) and
