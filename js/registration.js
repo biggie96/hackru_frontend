@@ -19,7 +19,7 @@ function finish (msg) {
 }
 
 function register () {
-  Parse.initialize("9vSVKysQ2KkvfMMbToW3LXoyy1xcs20nUlqsiBg8", "OkHTHIZv4KVNKAdFXow3CtXlQ4IJb4ZTZeOJ0jrc");
+  Parse.initialize("kTCMnVzLnr8yVMnYANvA89GsHnWt6pVNVGFmMtW8", "CSNsCGdPM6DgC9Mx6uIyFJ9aVH5zMz1YD4Qzi3s2");
 
   $('#submitbtn').attr('disabled', true);
   $('#submitbtn').attr('value', 'Registering ...');
