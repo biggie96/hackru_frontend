@@ -468,20 +468,20 @@ ID Style
 }
 
 .up{
-  position: relative;
-  padding-top: 4em;
+  position: relative;  
   left: 50%;
   margin-left: -20px;
   width: 40px;
   height: 40px;
   background-size: contain;
-
-  transform: rotate(180deg);
 }
 
-#middlearrow{
-  margin-left: -43px;
+#flipIt{
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);  
 }
+
 
 #bottomh{
   font-size: 5em; 
