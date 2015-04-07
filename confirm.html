@@ -1,0 +1,105 @@
+<!doctype html>
+<!--
+ __  __  ______  ______  __  __    ______  __  __
+/\ \_\ \/\  __ \/\  ___\/\ \/ /   /\  == \/\ \/\ \
+\ \  __ \ \  __ \ \ \___\ \  _"-. \ \  __<\ \ \_\ \
+ \ \_\ \_\ \_\ \_\ \_____\ \_\ \ \ \ \_\ \_\ \_____\
+  \/_/\/_/\/_/\/_/\/_____/\/_/\/_/  \/_/ /_/\/_____/
+-->
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>HackRU | Spring 2015</title>
+  <link rel="icon" type="image/png" href="img/favicon_old_logo.png">
+  <link rel="stylesheet" href="css/foundation.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/video-js.min.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/jquery.remodal.css" />
+  <script src="js/modernizr.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.17.min.js"></script>
+  <script src="js/imagesloaded.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+</head>
+<body >
+  <section id="wrapper">
+    <div style="width:100%; text-align: center;">
+      <img id="row1" src="img/hackru_head.svg" style="margin-bottom: 1px;">
+      <div class="row">
+        <h1>
+          <a href="index.html">
+            <img id="logo" src="img/hack_ru_logo.png" style="width: 270px">
+          </a>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="small-12 columns">
+
+        <form id="regform" class="regform">
+
+          <input id="email" class="form-input" type="email" name="email" placeholder="Enter the email you used to register." required>
+          <h3 style='font-size: 32pt;'>Optional Fields:</h3>
+          <input id="major" class="form-input" type="text" name="major" placeholder="What is your major?">
+          <div id="dcon">
+            <span class="custom-dropdown custom-dropdown--white register-dropdown">
+              <select class="custom-dropdown__select custom-dropdown__select--white" name="firsttime" form="regform">
+                <option disabled="disabled" selected="selected">Is this your first hackathon?</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </span>
+            <br />
+            <span class="custom-dropdown custom-dropdown--white register-dropdown">
+              <select class="custom-dropdown__select custom-dropdown__select--white" name="schoolyear" form="regform">
+                <option disabled="disabled" selected="selected">What is your current year in school?</option>
+                <option value="highschool">High School</option>
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+                <option value="grad">Grad School</option>
+              </select>
+            </span>
+            <br />
+            <span class="custom-dropdown custom-dropdown--white register-dropdown">
+              <select class="custom-dropdown__select custom-dropdown__select--white" name="gender" form="regform">
+                <option disabled="disabled" selected="selected">What is your gender?</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </span>
+          </div>
+          <input id="submitbtn" class="registerBtn registerBtn-1" type="submit" value="Register" style="color: white;">
+        </form>
+            <div style="width:100%; text-align: center;">
+              <br>
+              <br>
+        <h2>Make sure to also sign up for Hacker League to be eligible for the grand prize!</h2>
+        <a style="font-size: 2em;"href="https://www.hackerleague.org/sign_up">www.hackerleague.org</p>
+
+        </div>
+      </div>
+      <div id="remodal" class="remodal" data-remodal-id="modal">
+        <p style="font-size 30px; color: black">
+
+        </p>
+        <br>
+        <a class="remodal-confirm" href="#">OK</a>
+      </div>
+
+    </section>
+    <img id="row2" src="img/hackru_foot.svg">
+  </section>
+</div>
+
+</body>
+</html>
+
+<script src="js/jquery.remodal.js"></script>
+<script src="js/registration.js"></script>

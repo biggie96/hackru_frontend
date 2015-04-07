@@ -422,7 +422,8 @@ ID Style
 }
 
 
-#name, #school, #email, #github, #diet {
+#name, #school, #email, #github, #diet,
+#gender, #year, #major, #firsttime {
   background: transparent;
   border: none;
   border-bottom: 1px solid red;
@@ -434,10 +435,16 @@ ID Style
   margin-left: auto;
 }
 
+/*
+ * .regform {
+ *   margin-left: auto;
+ *   margin-right: auto;
+ *   width: 500px;
+ * }
+ */
+
 .regform {
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .form-input{
