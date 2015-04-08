@@ -25,23 +25,39 @@
     $('#submitbtn').attr('value', 'Registering...');
 
     var reg = Parse.Object.extend("confirmations");
+    var original_registrations = Parse.Object.extend("registration");
 
     var user = new reg();
     var data = getData();
 
     for (var i in data) user.set(i, data[i]);
 
-    var q = new Parse.Query(reg);
+    var q = new Parse.Query(original_registrations);
     q.equalTo('email', data.email);
     q.find({
       success: function (results) {
         if (results.length === 0) {
-          user.save().then(function () {
-            finish("You're now confirmed for HackRU Spring 2015!");
-          }, finish);
+          finish("Sorry, we could not find a registration matching that email.");
+          return;
         }
 
-        else finish("You have already confirmed your attendance.");
+        q = new Parse.Query(reg)
+        q.equalTo('email', data.email);
+        q.find({
+          success: function (results) {
+            if (results.length === 0) {
+              user.save().then(function () {
+                finish("You're now confirmed for HackRU Spring 2015!");
+              }, finish);
+            }
+
+            else finish("You have already confirmed your attendance.");
+          },
+
+          error: function (error) {
+            finish("There was an error. Please try again later.");
+          }
+        });
       },
 
       error: function (error) {
