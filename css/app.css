@@ -9,15 +9,16 @@ html {
 }
 
 body{
-  background-color: #FFFFFF; 
-  background: url('../img/bgPattern.png');
+  background-color: #2A2A2A; 
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #E3CDA4;
   background-attachment: fixed;  
+  background-size: 100% auto;  
 }
+
 header{
   height: 4.4em;
   width: 100%;
@@ -85,15 +86,14 @@ section {
 p{
   letter-spacing: 2px;
   font-size: 16px;
-  color: #533D14;
+  color:#feffe6;
   font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
 
 }
 
 a {
-  color: #0088cc;
+  color: #E52016;
   text-decoration: none;
-  outline: 0;
 }
 
 
@@ -103,18 +103,18 @@ h1 {
 
 h2 {
   font-size: 31.5px;
-  color:#B39D74;
+  color:#FFE11A;
 }
 
 h3 {
   font-size: 5em;
   text-align: center;
-  color:#B39D74;
+  color:#F5F5F5;
 }
 
 h4 {
   font-size: 17.5px;
-  color: #3B5998;
+  color: #F5F5F5;
 }
 
 h5 {
@@ -131,82 +131,50 @@ Class Style
 
 #wrapper{
   width: 100%;
-
 }
 
-.navbar {
-  *position: relative;
-  *z-index: 2;
-  margin-bottom: 20px;
-  overflow: visible;
-  padding-top: 0px;
-  margin-top: 0px;
+#nav{
   width: 100%;
-  height: 80px;
-  background: -webkit-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1)); 
-  background: -o-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1));
-  background: -moz-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1)); 
-  background: radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1)); 
-}
-
-.navbar-inner:before,
-.navbar-inner:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.navbar-inner:after {
-  clear: both;
-}
-
-.navbar-fixed-top,
-.navbar-fixed-bottom {
+  background-color: rgba(210,17,47,1); 
   position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  margin-bottom: 0;
+  z-index: 10;
+  margin-top: -11px;
 }
 
-.navbar-fixed-top .navbar-inner,
-.navbar-static-top .navbar-inner {
-  border-width: 0 0 1px;
+#hruBanner{
+  width: 45%;
+  margin-top: 5%;
 }
 
-.navbar-fixed-bottom .navbar-inner {
-  border-width: 1px 0 0;
+#hruLogo{
+    width: 40%;
 }
 
-.navbar-fixed-top .navbar-inner,
-.navbar-fixed-bottom .navbar-inner {
-  padding-right: 0;
-  padding-left: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+#sectionBoarder{
+  width: 100%;
+  background:  linear-gradient(rgba(229,32,22,.67), rgba(207,182,21,.2)), url(../img/hackru6.jpg); 
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  width: 1200px;
+#sectionBoarder2{
+  width: 100%;
+  background:  linear-gradient(rgba(229,32,22,.67), rgba(207,182,21,.2)), url(../img/hackru6.jpg); 
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.navbar-fixed-top {
-  top: 0;
-}
-
-.navbar-fixed-top .navbar-inner,
-.navbar-static-top .navbar-inner {
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar .nav.pull-right {
-  float: right;
-  margin-right: 0;
+#cent{
+  *position: relative;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container{
@@ -225,14 +193,6 @@ Class Style
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
-}
-
-.uphill8 {
-  transform: rotate(-8deg);
-  -ms-transform: rotate(-8deg);
-  -webkit-transform: rotate(-8deg);
-  margin-top: 5%;
-  margin-bottom: -12%;
 }
 
 .registerBtn {
@@ -263,10 +223,12 @@ Class Style
   margin-right: auto;
   margin-left: auto;
 }
+
 .registerBtn:active {
   padding-top: 15px;
   margin-bottom: -1px;
 }
+
 .registerBtn, .registerBtn:hover, .registerBtn:active {
   outline: 0 none;
   text-decoration: none;
@@ -277,9 +239,11 @@ Class Style
   background-color: #2F343B;
   box-shadow: 0px 3px 0px 0px #1F242B;
 }
+
 .registerBtn-1:hover {
   background-color: #1baae3;
 }
+
 .registerBtn-1:active {
   box-shadow: 0px 1px 0px 0px #3293ba;
 }
@@ -290,6 +254,7 @@ Class Style
   margin-right: auto;
 
 }
+
 .mainContentDiv {
   background:#DBFFFF;
   margin-top:-1.9em;
@@ -301,13 +266,12 @@ Class Style
 }
 
 .mainArticle{
-  float: left;
+  display: inline-block;
   width: 300px;
   height: 220px;
   margin-top: 16px;
   margin-left: 9px;
   margin-right: 0px;
-  display: inline-block;
   margin-bottom: 12px;
 }
 
@@ -333,11 +297,10 @@ ID Style
 #main{
   font-size: 14em;
   color: #7E827A;
-
 }
 
 #m2{
-  color:#B39D74;
+  color:#E52016;
 }
 
 #about{
@@ -346,20 +309,16 @@ ID Style
 
 
 #sponsors img {
-
   display: block;
   height: auto;
   margin: 0 auto;
   max-width: 90%;
 }
 
-
-
 #bottomh{
   font-size: 4em; 
   text-align: center;
 }
-
 
 #heading{
   display: block;
@@ -375,6 +334,7 @@ ID Style
   width: 100%;
   margin-bottom: -.5em;
 }
+
 #redR{
   color: #950917;
 }
@@ -394,7 +354,6 @@ ID Style
   width: 100px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #pitch h1{
@@ -422,8 +381,7 @@ ID Style
 }
 
 
-#name, #school, #email, #github, #diet,
-#gender, #year, #major, #firsttime {
+#name, #school, #email, #github, #diet {
   background: transparent;
   border: none;
   border-bottom: 1px solid red;
@@ -435,69 +393,12 @@ ID Style
   margin-left: auto;
 }
 
-/*
- * .regform {
- *   margin-left: auto;
- *   margin-right: auto;
- *   width: 500px;
- * }
- */
-
-.regform {
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.form-input{
-  background-color: rgba(0,0,0,0.1);
-  border-color: white; 
-  text-align: center;
-}
-
-#reg input, #reg select, #reg textarea{
-  color: #000;
-}
-
-#reg textarea:focus,#reg input:focus {
-  color: gray;
-}
-
-#resumeHead {
-  color:gray;
-  position:left;
-  font-size: 2em;
-}
-.arrow {
-  position: relative;
-  padding-top: 2em;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-}
-
-.up{
-  position: relative;  
-  left: 50%;
-  margin-left: -20px;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-}
-
-#flipIt{
-  -ms-transform: rotate(180deg); /* IE 9 */
-  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-  transform: rotate(180deg);  
-}
-
-
 #bottomh{
   font-size: 5em; 
-
 }
 
-@media screen and (max-width: 850px) {
+
+@media screen and (max-width: 750px) {
   .container{
 
     width: 100%; 
@@ -548,98 +449,6 @@ ID Style
 input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align: center;}
 
 
-.custom-dropdown--large {
-    font-size: 1.5em;
-
-}
-
-.custom-dropdown--small {
-    font-size: .7em;
-
-}
-
-.custom-dropdown__select{
-    font-size: inherit; /* inherit size from .custom-dropdown */
-    padding: .5em; /* add some space*/
-    margin: 0; /* remove default margins */
-
-}
-
-.custom-dropdown__select--white {
-    background-color: #fff;
-    color: #444; 
-  margin-left: auto;
-  margin-right: auto;   
-
-}
-
-.register-dropdown {
-  margin-top: 10px;
-}
-
-@supports (pointer-events: none) and
-      ((-webkit-appearance: none) or
-      (-moz-appearance: none) or
-      (appearance: none)) {
-
-    .custom-dropdown {
-        position: relative;
-        width: 300px;
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-    .custom-dropdown__select {
-        padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */
-        border: 0;
-        border-radius: 3px;
-
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;    
-    }
-
-    .custom-dropdown::before,
-    .custom-dropdown::after {
-        content: "";
-        position: absolute;
-        pointer-events: none;
-    }
-
-    .custom-dropdown::after { /*  Custom dropdown arrow */
-        content: "\25BC";
-        height: 1em;
-        font-size: .625em;
-        line-height: 1;
-        right: 1.2em;
-        top: 50%; margin-top: -.5em;
-
-    }
-
-    .custom-dropdown::before { /*  Custom dropdown arrow cover */
-        width: 2em;
-        right: 0; top: 0; bottom: 0;
-        border-radius: 0 3px 3px 0;
-    }
-
-    .custom-dropdown__select[disabled] {
-        color: rgba(0,0,0,.3);
-    }
-
-    .custom-dropdown.custom-dropdown--disabled::after {
-        color: rgba(0,0,0,.1);
-    }
-
-    /* White dropdown style */
-    .custom-dropdown--white::before {
-        background-color: #fff;
-        border-left: 1px solid rgba(0,0,0,.1);
-    }
-
-    .custom-dropdown--white::after {
-        color: rgba(0,0,0,.9);
-    }
-
     /* FF only temp fix */
     @-moz-document url-prefix() {
         .custom-dropdown__select             { padding-right: .9em }
@@ -662,10 +471,5 @@ input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-section#aboutHackRU {
-  margin-top: -5%;
-  padding-top: 5%;
 }
 
