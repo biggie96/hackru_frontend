@@ -1,4 +1,4 @@
-*************************
+/**************************
 MAIN STYLE
 **************************/
 
@@ -9,14 +9,13 @@ html {
 }
 
 body{
-  background-color: #2A2A2A; 
+  background: url(../img/bg_pattern2.png); 
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #E3CDA4;
-  background-attachment: fixed;  
-  background-size: 100% auto;  
+  background-attachment: fixed;
 }
 
 header{
@@ -27,7 +26,7 @@ header{
   top:0px;
 }
 
-h1, h2, h3, legend {
+h1, h2, h3, legend, h6 {
   font-weight: normal;
   line-height: 120%;
   margin: 0;
@@ -40,7 +39,7 @@ h1, h2, h3, legend {
   text-rendering: optimizelegibility;
 }
 
-h1, legend {
+legend {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-size: 38.5px;  
   margin-bottom: 30px;
@@ -86,19 +85,53 @@ section {
 p{
   letter-spacing: 2px;
   font-size: 16px;
-  color:#feffe6;
+  color: white;
   font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+
+}
+
+#schedule{
+  width: 500px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: red;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-shadow: none;
+  font-weight: bold;
+  padding-bottom: 9em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#location_text{
+  width: 500px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: white;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-shadow: none;
+  font-weight: bold;
+  padding-bottom: 18em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
-  color: #E52016;
+  color: blue;
   text-decoration: none;
 }
 
 
 h1 {
-  font-size: 38.5px;
+  font-size: 5em;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
 }
 
 h2 {
@@ -109,12 +142,12 @@ h2 {
 h3 {
   font-size: 5em;
   text-align: center;
-  color:#F5F5F5;
+  color:#E52016;
 }
 
 h4 {
   font-size: 17.5px;
-  color: #F5F5F5;
+  color: #E52016;
 }
 
 h5 {
@@ -122,59 +155,24 @@ h5 {
 }
 
 h6 {
-  font-size: 11.9px;
+  font-size: 5em;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+
 }
 
 /**************************
 Class Style
 **************************/
 
-#wrapper{
+.container_outer{
+  display: block;
   width: 100%;
-}
-
-#nav{
-  width: 100%;
-  background-color: rgba(210,17,47,1); 
-  position: fixed;
-  z-index: 10;
-  margin-top: -11px;
-}
-
-#hruBanner{
-  width: 45%;
-  margin-top: 5%;
-}
-
-#hruLogo{
-    width: 40%;
-}
-
-#sectionBoarder{
-  width: 100%;
-  background:  linear-gradient(rgba(229,32,22,.67), rgba(207,182,21,.2)), url(../img/hackru6.jpg); 
-  padding-top: 1em;
-  padding-bottom: 3em;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#sectionBoarder2{
-  width: 100%;
-  background:  linear-gradient(rgba(229,32,22,.67), rgba(207,182,21,.2)), url(../img/hackru6.jpg); 
-  padding-top: 1em;
-  padding-bottom: 3em;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#cent{
-  *position: relative;
-  width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  *zoom: 1;
 }
 
 .container{
@@ -281,17 +279,135 @@ Class Style
   margin-top: 0px;
   height: auto;
 }
-/**************************
-ID Style
-**************************/
-#navLinks{
-  margin-right: auto;
-  margin-left: auto;
+
+.sec_boarder{
+  width: 100%;
+  position: relative;
+  margin-top: -5em;
+}
+
+.sec_boarder2{
+  width: 100%;
+  margin-bottom: -3em; 
+  position: relative;
+}
+
+.sec_boarder3{
+  width: 100%;
+  position: relative;
+  margin-bottom: -3em; 
+}
+
+.sec_boarder4{
+  width: 100%;
+  position: relative;
+ margin-top: -2em;
 }
 
 .banner{
   width: 25%;
   max-width: 250px;
+}
+
+.nav_text{
+  font-size: 2em;
+  color: white;
+  padding: 0.5em;
+  padding: 0.6em;
+  font-family:  Helvetica, sans-serif;
+  display: block;
+  float: left;
+  font-weight: bold;
+  transition: background .3s ease;
+  text-shadow: -2px 2px black;
+  background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+}
+
+.nav_text:hover{
+  background-position: center;
+}
+
+.nav_banner{
+  display: block;
+  padding-top: 5px;
+  float: left;
+  font-weight: bold;
+  transition: background .3s ease;
+  text-shadow: -2px 2px black;
+  background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+}
+
+.nav_banner:hover{
+  background-position: center;
+}
+
+/**************************
+ID Style
+**************************/
+#wrapper{
+  width: 100%;
+}
+
+#nav{
+  display: block;
+  width: 100%;
+  
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+#hruBanner{
+  display: block;
+  float: left;
+  width: 180px;
+  margin-top: -0.2em;
+}
+
+#hruLogo{
+    width: 30%;
+    margin-top: 10%;
+
+}
+
+#sectionBoarder{
+  width: 100%;
+  background:  url(../img/hackru_6.jpg); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sectionBoarder2{
+  width: 100%;
+  background:  url(../img/hackru_1.jpg); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#location{
+  width: 100%;
+  background:  url(../img/google_map.jpg); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cent{
+  *position: relative;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#navLinks{
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #main{
@@ -300,13 +416,13 @@ ID Style
 }
 
 #m2{
-  color:#E52016;
+  color:#red;
 }
 
 #about{
   font-size: 1.4em;
+  padding-bottom: 2em;
 }
-
 
 #sponsors img {
   display: block;
@@ -324,6 +440,7 @@ ID Style
   display: block;
   width: 100px;
 }
+
 #row1{
   display: block;
   width: 100%;
@@ -344,7 +461,7 @@ ID Style
 }
 
 #pitch{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -373,30 +490,6 @@ ID Style
 
   text-align: center;
 }
-
-#faqHead{
-  width: 100%;
-  height: 400px;
-  background-color: #1D2326;
-}
-
-
-#name, #school, #email, #github, #diet {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid red;
-  height: 50px;
-  font-size: 24px;
-  width: 500px;
-  box-shadow: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#bottomh{
-  font-size: 5em; 
-}
-
 
 @media screen and (max-width: 750px) {
   .container{
@@ -443,6 +536,7 @@ ID Style
     width: 300px;
   }
 }
+
 ::-webkit-input-placeholder { font-family:'Source Sans Pro', sans-serif; text-align: center;}
 ::-moz-placeholder {  font-family: 'Source Sans Pro', sans-serif;  text-align: center;} /* firefox 19+ */
 :-ms-input-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align: center;} /* ie */
