@@ -115,7 +115,7 @@ p{
   font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
   text-shadow: none;
   font-weight: bold;
-  padding-bottom: 18em;
+  padding-bottom: 14em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -295,13 +295,13 @@ Class Style
 .sec_boarder3{
   width: 100%;
   position: relative;
-  margin-bottom: -3em; 
+ margin-top:-3em;  
 }
 
 .sec_boarder4{
   width: 100%;
   position: relative;
- margin-top: -2em;
+ margin-bottom: -3em;
 }
 
 .banner{
@@ -385,7 +385,7 @@ ID Style
 #sectionBoarder2{
   width: 100%;
   background:  url(../img/hackru_1.jpg); 
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
