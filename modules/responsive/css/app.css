@@ -1,0 +1,679 @@
+/**************************
+MAIN STYLE
+**************************/
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body{
+  background: url(../img/bg_pattern4.png); 
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #E3CDA4;
+  background-attachment: fixed;
+}
+
+header{
+  height: 4.4em;
+  width: 100%;
+  background-color: #B50917;
+  margin: 0px;
+  top:0px;
+}
+
+h1, h2, h3, legend, h6 {
+  font-weight: normal;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-shadow: 1px 1px #333;
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+}
+
+legend {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 38.5px;  
+  margin-bottom: 30px;
+  line-height: 0.8;
+  z-index: 10;
+  color:#B39D74;
+}
+
+fieldset {
+  font-family: sans-serif;
+  border: 5px solid #1F497D;
+  background: #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  color: black;
+  font-size: 1.5em;
+}
+
+h3{
+  font-size: 7em;
+  margin: 1em;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+p{
+  font-size: 16px;
+  color: white;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+
+}
+
+#schedule{
+  width: 500px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: red;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-shadow: none;
+  font-weight: bold;
+  padding-bottom: 9em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#location_text{
+  width: 500px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: white;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-shadow: none;
+  font-weight: bold;
+  padding-bottom: 18em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 31.5px;
+  color:white;
+    text-shadow: 1px 2px black;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  color:#E52016;
+}
+
+h4 {
+  font-size: 17.5px;
+  color: #E52016;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 5em;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+
+}
+
+/**************************
+Class Style
+**************************/
+
+.container_outer{
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container{
+  display: block;
+  width: 960px; 
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+
+.content{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.registerBtn {
+  width: 200px;
+  margin-top: 30px;
+  padding: 14px 26px;
+  font-size: 14px;
+  line-height: 100%;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display:inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out;
+  -moz-transition: background 0.1s ease-in-out;
+  -ms-transition: background 0.1s ease-in-out;
+  -o-transition: background 0.1s ease-in-out;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.registerBtn:active {
+  padding-top: 15px;
+  margin-bottom: -1px;
+}
+
+.registerBtn, .registerBtn:hover, .registerBtn:active {
+  outline: 0 none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.registerBtn-1 {
+  background-color: #2F343B;
+  box-shadow: 0px 3px 0px 0px #1F242B;
+}
+
+.registerBtn-1:hover {
+  background-color: #1baae3;
+}
+
+.registerBtn-1:active {
+  box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+.log{
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mainContentDiv {
+  background:#DBFFFF;
+  margin-top:-1.9em;
+}
+
+.boxItems{
+  padding: 5px;
+  float: left;
+}
+
+.mainArticle{
+  display: inline-block;
+  width: 300px;
+  height: 220px;
+  margin-top: 16px;
+  margin-left: 9px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+}
+
+.mainArticle h2{
+  font-size: 22px;
+  padding: 0px;
+  margin-top: 0px;
+  height: auto;
+}
+
+.sec_boarder{
+  width: 100%;
+  position: relative;
+  margin-top: -5em;
+}
+
+.sec_boarder2{
+  width: 100%;
+  margin-bottom: -3em; 
+  position: relative;
+}
+
+.sec_boarder3{
+  width: 100%;
+  position: relative;
+  margin-bottom: -3em; 
+}
+
+.sec_boarder4{
+  width: 100%;
+  position: relative;
+ margin-top: -2em;
+}
+
+.banner{
+  width: 25%;
+  max-width: 250px;
+}
+
+.nav_text{
+  display: block;
+  float: left;
+  font-weight: bold;
+  transition: background .3s ease;
+  background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+}
+
+.nav_text:hover{
+  background-position: center;
+}
+
+.nav_banner{
+  display: block;
+  padding-top: 5px;
+  float: left;
+  font-weight: bold;
+  transition: background .3s ease;
+  text-shadow: -2px 2px black;
+  background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+}
+
+.nav_banner:hover{
+  background-position: center;
+}
+
+/**************************
+ID Style
+**************************/
+#wrapper{
+  width: 100%;
+}
+
+#nav{
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#nav_bg{
+  width: 100%;
+  float: left;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+#hruBanner{
+  margin-top: 5%;
+  width: 40%;
+}
+
+#hruLogo{
+    width: 35%;
+}
+
+#sectionBoarder{
+  width: 100%;
+  background:  url(../img/hackru_6.jpg); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sectionBoarder2{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background: -webkit-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1)); 
+  background: -o-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1));
+  background: -moz-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1)); 
+  background: radial-gradient(circle,rgba(140,120,120,1), rgba(70,50,50,1),rgba(35,0,0,1)); 
+  box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC;
+}
+
+#location{
+  width: 100%;
+  background:  url(../img/google_map.jpg); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cent{
+  *position: relative;
+  width: 1175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#navLinks{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#main{
+  font-size: 14em;
+  color: #7E827A;
+}
+
+#m2{
+  color:#red;
+}
+
+#about{
+  font-size: 1.4em;
+  padding-bottom: 2em;
+}
+
+#sponsors img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#bottomh{
+  font-size: 4em; 
+  text-align: center;
+}
+
+#heading{
+  display: block;
+  width: 100px;
+}
+
+#row1{
+  display: block;
+  width: 100%;
+}
+
+#row2{
+  margin-top: 7em;
+  width: 100%;
+  margin-bottom: -.5em;
+}
+
+#redR{
+  color: #950917;
+}
+
+#faqHead{
+  text-align: center;
+}
+
+#pitch{
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#logger{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pitch h1{
+  display: block;
+  font-size: 8em;
+  height: auto;
+  text-align: center;
+  font-style: i
+}
+
+#pitch h3{
+  font-size: 2em;
+  text-align: center;
+}
+
+#pitch h4{
+
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .container{
+
+    width: 100%; 
+  }
+  h3{
+    font-size: 3em;
+  }
+  .mainArticle{
+    width: 46%;
+
+  }
+  .banner{
+    width: 40%;
+  }
+#bottomh{
+  margin-top: 0px;
+  font-size: 3em; 
+  width: 80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  p{
+    text-align: center;
+    width: 100%;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .mainArticle{
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  #name, #school, #email, #github, #diet {
+    width: 300px;
+  }
+}
+
+::-webkit-input-placeholder { font-family:'Source Sans Pro', sans-serif; text-align: center;}
+::-moz-placeholder {  font-family: 'Source Sans Pro', sans-serif;  text-align: center;} /* firefox 19+ */
+:-ms-input-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align: center;} /* ie */
+input:-moz-placeholder { font-family: 'Source Sans Pro', sans-serif;  text-align: center;}
+
+    /* FF only temp fix */
+    @-moz-document url-prefix() {
+        .custom-dropdown__select             { padding-right: .9em }
+        .custom-dropdown--large .custom-dropdown__select { padding-right: 1.3em }
+        .custom-dropdown--small .custom-dropdown__select { padding-right: .5em }
+    }
+}
+
+#upfile{
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  background-color: white;
+}
+
+#dcon{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqArrow {
+  visibility: hidden;
+}
+
+.hamburger {
+  visibility: hidden;
+}
+
+/************************
+RESPONSIVE STYLES
+************************/
+
+@media only screen and (max-device-width: 480px) {
+  #nav_bg {
+    width: 160%;
+    left: -40%;
+  }
+  .mainBreak {
+    display: none;
+  }
+  #hruBanner {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    width: 70%;
+  }
+  #hruLogo {
+    width: 70%;
+  }
+  #pitch h3 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1em;
+    margin-bottom: 55px;
+  }
+  h6 {
+    font-size: 2em;
+    padding: 0 24px;
+  }
+  p {
+    width: auto;
+  }
+  #about {
+    font-size: 1.2em;
+    padding: 0 24px;
+  }
+  #sectionBoarder {
+    background-size: auto 100%;
+  }
+  #bottomh {
+    margin-top: 50px;
+    font-size: 2em;
+    width: auto;
+  }
+  .boxItems {
+    display: none;
+  }
+  #sectionBoarder2 #bottomh {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .faqArrow {
+    visibility: visible;
+  }
+  .mainArticle h2 {
+    font-size: 17px;
+    padding: 0 24px;
+  }
+  .mainArticle p {
+    font-size: 15px;
+    padding: 0 24px;
+  }
+  #scheduleSection #bottomh {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  #schedule {
+    width: auto;
+    font-size: 17px;
+    padding-bottom: 2em;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .hamburger {
+    visibility: visible;
+    text-align: right;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    right: 5px;
+    font-size: 40px;
+    color: #E8E8E8;
+  }
+  #nav {
+    background-color: rgba(213,0,0,0.8);
+    padding-top: 45px;
+    width: 100%;
+    display: none;
+  }
+  #cent {
+    display: table-cell;
+    text-align: center
+  }
+  .nav_text {
+    float: none;
+  }
+}
