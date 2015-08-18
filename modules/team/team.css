@@ -1,0 +1,20 @@
+#sectionBoarder3{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background: -webkit-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1));
+  background: -o-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1));
+  background: -moz-radial-gradient(circle,rgba(200,120,120,1), rgba(180,50,50,1),rgba(100,0,0,1));
+  background: radial-gradient(circle,rgba(140,120,120,1), rgba(70,50,50,1),rgba(35,0,0,1));
+  box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC;
+}
+
+#sectionBoarder3 h2{
+  text-decoration: underline;
+}
+
+#team-header{
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
